@@ -1,0 +1,135 @@
+html {
+    scroll-padding-top: 120px; 
+}
+body {
+    margin: 0;
+}
+nav {
+    display: flex;
+    background-image: url("images/night-sky-background.jpg");
+    background-size: cover;
+    padding: 15px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.logo-rocket {
+    max-height: 85px;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+nav ul li a{
+    color: #d5d5d5;
+    font-family: "Andale Mono", monospace;
+    font-size: 20px;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+main {    
+    padding: 0 10px;
+    margin-top: 115px;
+    display: flex;
+    background: rgb(8, 9, 24);
+}
+
+article, aside {
+    background: #d5d5d5;
+    padding: 20px;
+    margin: 0 10px 0 10px;
+    border-radius: 20px;
+    box-shadow: inset 20px 20px 60px #515565,
+                inset -20px -20px 60px #ffffff;
+    font-family: "Andale Mono", monospace;
+}
+
+article div {
+    margin: 40px;
+}
+
+article h1 {
+    font-size: 40px;
+}
+
+article h2 {
+    font-size: 25px;
+}
+
+article p {
+    font-size: 16px;    
+}
+
+aside table {
+    font-family: "Andale Mono", monospace;
+    font-size: 12px;
+    padding: 5px;
+    margin: 30px;
+    border-spacing: 0;
+    border-collapse: separate;
+    border-radius: 10px;
+    background: #d5d5d5;
+    box-shadow: inset 20px 20px 60px #9a9a9a,
+                inset -20px -20px 60px #ffffff;           
+}
+
+table tr:not(:last-child)>td,
+table tr:not(:last-child)>th {
+    border-bottom: 1px solid #9a9a9a;
+}
+
+table th:not(:last-child),
+table td:not(:last-child) {
+    border-right: 1px solid #9a9a9a;
+}
+
+aside th, td {
+    text-align: left;
+    font-size: 14px;
+}
+
+aside th {
+    min-width: 50px;
+}
+
+aside {
+    display: grid;
+}
+
+aside img {
+    border-radius: 10px;
+}
+
+aside .caption {
+    font-size: 13px;
+}
+
+aside .credits {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+footer {
+    background-image: url("images/night-sky-background.jpg");
+    background-size: cover;
+    color: #d5d5d5;
+    font-family: "Andale Mono", monospace;
+    font-size: 14px;
+    padding: 20px;
+}
+
+footer h3 {
+    margin: 0;    
+}
+
+footer p {
+    margin: 0;
+}
+
+footer .mcol {
+    column-count: 3;
+}
