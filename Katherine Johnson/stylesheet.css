@@ -1,0 +1,132 @@
+html {
+    scroll-padding-top: 120px; 
+}
+body {
+    background-image: url("images/night-sky-background.jpg");
+    background-size: cover;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    background-image: url("images/night-sky-background.jpg");
+    background-size: cover;
+    display: flex;
+    padding: 15px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.logo-rocket {
+    max-height: 85px;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+nav ul li a{
+    color: #d5d5d5;
+    font-family: "Andale Mono", monospace;
+    font-size: 20px;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+main {    
+    padding: 0 10px;
+    margin-top: 115px;
+    display: flex;
+    background: rgb(8, 9, 24);
+}
+
+article {
+    background: #d5d5d5;
+    padding: 20px;
+    margin: 5px 10px 10px 10px;
+    border-radius: 20px;
+    box-shadow: inset 20px 20px 60px #515565,
+                inset -20px -20px 60px #ffffff;
+    font-family: "Andale Mono", monospace;
+}
+
+article div {
+    margin: 40px;
+}
+
+article h1 {
+    font-size: 40px;
+}
+
+article h2 {
+    font-size: 25px;
+}
+
+article p {
+    font-size: 16px;    
+}
+
+figcaption {
+    font-size: 12px;
+}
+
+
+figure {
+    margin: 5px;
+    max-width: 200px;
+    padding: 10px;
+}
+
+img {
+    max-width: 200px;
+    border: solid 2px #070708;
+}
+
+.fig1 {
+    float: left;
+
+}
+.fig2 {
+    float: right;
+
+}
+
+footer {
+    color: #d5d5d5;
+    font-family: "Andale Mono", monospace;
+    font-size: 14px;
+    padding: 20px;
+    margin-top: auto;
+}
+
+footer h3 {
+    margin: 0;    
+}
+
+footer p {
+    margin: 0;
+}
+
+p {
+    text-align: justify;
+    font-size: 25px;
+}
+
+@media only screen and (max-device-width: 900px)  {
+    img {
+        max-width: 350px;
+    }
+    figure {
+        max-width: 350px;
+        margin: 15px;
+    }
+    figcaption {
+        font-size: 30px;
+    }
+    nav ul li a{
+        font-size: 30px;
+    }
+}
